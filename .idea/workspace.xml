@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="init">
-      <change afterPath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/geihanshuqiyigehaomingzi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/mianshixuexi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogs/zatan/2022/yedezhang.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/public/bk.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/styles/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/public/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/category1/2018/121501.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/category1/2019/092101.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/category2/2016/121501.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/category2/2017/092101.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/theme-reco/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/theme-reco/api.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/theme-reco/plugin.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/theme-reco/theme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/geihanshuqiyigehaomingzi.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/geihanshuqiyigehaomingzi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/mianshixuexi.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/bianchengfenxiang/2022/mianshixuexi.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -26,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Stylus File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,11 +37,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vuepress/styles/palette.styl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vuepress/config.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="28JhjfW2xBtvH7yogHKazJStRUV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -52,23 +53,28 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogs/bianchengfenxiang/2022" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/public" />
+    <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.vuepress/public" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/../" />
       <recent name="$PROJECT_DIR$/blogs/bianchengfenxiang/2022" />
       <recent name="$PROJECT_DIR$/blogs/技术分享" />
-      <recent name="$PROJECT_DIR$/blogs/杂谈/2022" />
-      <recent name="$PROJECT_DIR$/.vuepress/public" />
-      <recent name="$PROJECT_DIR$/my-blog/.vuepress/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.vuepress/public" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/blogs/category2/2017" />
       <recent name="$PROJECT_DIR$/blogs/技术分享/2022" />
       <recent name="$PROJECT_DIR$/my-blog/.vuepress/public" />
@@ -84,6 +90,7 @@
       <updated>1650940733574</updated>
       <workItem from="1650940735719" duration="4187000" />
       <workItem from="1650945539258" duration="12361000" />
+      <workItem from="1650997414831" duration="15991000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>

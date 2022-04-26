@@ -4,7 +4,10 @@ module.exports = {
 	dest: 'public',
 	head: [
 		['link', {rel: 'icon', href: '/favicon.ico'}],
-		['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}]
+		['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
+		['meta', {name: 'referrer', content: 'no-referrer'}],
+		["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
+		["script", { src: "scripts/demo.js" }]
 	],
 	theme: 'reco',
 	themeConfig: {
@@ -73,7 +76,7 @@ module.exports = {
 		// 作者头像
 		authorAvatar: '/avatar.png',
 		// 备案号
-		record: 'xxxx',
+		record: '未备案',
 		// 项目开始时间
 		startYear: '2022'
 		/**
@@ -104,7 +107,7 @@ module.exports = {
 			"@vuepress-reco/vuepress-plugin-kan-ban-niang",
 			{
 				theme: ['whiteCat'],
-				clean: false,
+				clean: true,
 				messages: {
 					welcome: '我是lilcandle欢迎你的关注 ',
 					home: '心里的花，我想要带你回家。',
@@ -120,27 +123,21 @@ module.exports = {
 				}
 			}
 		],
-		// [
-		// 	//先安装在配置， npm install vuepress-plugin-meting --save
-		// 	'meting', {
-		// 	metingApi: "https://api.i-meto.com/meting/api",
-		// 	meting: {
-		// 		auto:"https://music.163.com/playlist?id=430001319"
-		// 	},          // 不配置该项的话不会出现全局播放器
-		// 	aplayer: {
-		// 		lrcType: 3
-		// 	}
-		// }
-		// ],
-		// [
-		// 	//彩带背景 先安装在配置， npm install vuepress-plugin-ribbon --save
-		// 	"ribbon",
-		// 	{
-		// 		size: 90,     // width of the ribbon, default: 90
-		// 		opacity: 1, // opacity of the ribbon, default: 0.3
-		// 		zIndex: -1    // z-index property of the background, default: -1
-		// 	}
-		// ],
+		[
+			//先安装在配置， npm install vuepress-plugin-meting --save
+			'meting', {
+			metingApi: "https://api.i-meto.com/meting/api",
+			meting: {
+				server: "netease",
+				type: "playlist",
+				mid: "430001319",
+			},         // 不配置该项的话不会出现全局播放器
+			aplayer: {
+				lrcType: 3,
+				order:'random',
+			}
+		}
+		],
 		[
 			'cursor-effects',
 			{
@@ -155,8 +152,8 @@ module.exports = {
 			{
 				showIcon: "/favicon.ico",
 				showText: "(/≧▽≦/)咦！又好了！",
-				hideIcon: "/failure.ico",
-				hideText: "(●—●)喔哟，崩溃啦！",
+				hideIcon: "/favicon.ico",
+				hideText: "(●—●)客观别走哇！",
 				recoverTime: 2000
 			}
 		],
@@ -203,7 +200,16 @@ module.exports = {
 			// },
 		// 	closeOnce: false
 		// }],
-		['go-top'],
+		[ "vuepress-plugin-auto-sidebar", {}],
+		['@vuepress/pwa', {
+			serviceWorker: true,
+			updatePopup: {
+				message: "发现新内容可用",
+				buttonText: "刷新"
+			}
+		}],
+		["vuepress-plugin-boxx"]
+
 	]
 }
 

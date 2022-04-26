@@ -1,0 +1,128 @@
+// 侧边栏样式
+// 左侧侧边栏标题
+.sidebar > .sidebar-links > li > a.sidebar-link {
+  font-size: 1.5em !important;
+  margin-left: -1em !important
+}
+// 右侧文章标题导航栏
+a.sidebar-link {
+  font-size: 16px !important;
+}
+// 左侧边栏标题字体大小样式
+.sidebar-heading span{
+  font-size: 1.2em !important;
+  font-weight: bold !important
+
+}
+.sidebar-heading.open span{
+  font-weight: bold !important;
+}
+
+
+// 左侧边栏展开文章的字体大小
+a.sidebar-link.active {
+  font-size: 14px !important;
+  background: #c3d4b742 !important;
+}
+.sidebar-sub-headers a.sidebar-link {
+  margin: 0 1rem 0 1rem !important;
+}
+// 分组的透明度修改，未生效
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable){
+  opacity: 0.5 !important
+}
+
+.hero {
+  margin 0 !important
+  position relative !important
+  box-sizing border-box !important
+  padding 0 20px !important
+  height 100vh !important
+  display flex !important
+  align-items center !important
+  justify-content center !important
+}
+
+.hero-img {
+   max-width: 300px !important
+   margin: 0 auto 1.5rem !important
+}
+
+.navbar
+  padding $navbar-vertical-padding $navbar-horizontal-padding
+  line-height $navbarHeight - 1.4rem
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .1) !important
+  //box-shadow var(--box-shadow)
+  background: rgba(0,0,0,.2) !important
+  //background var(--background-color)
+  a, span, img
+    display inline-block
+
+  .logo
+    height $navbarHeight - 1.4rem
+    min-width $navbarHeight - 1.4rem
+    margin-right 0.8rem
+    vertical-align top
+    border-radius 50%
+  .site-name
+    font-size 1.2rem
+    font-weight 600
+    color var(--text-color) !important
+    position relative
+  .links
+    padding-left 1.5rem
+    box-sizing border-box
+    white-space nowrap
+    font-size 0.9rem
+    position absolute
+    right $navbar-horizontal-padding
+    top $navbar-vertical-padding
+    display flex
+    background-color: rgba(0,0,0,0) !important
+    //background var(--background-color)
+    .search-box
+      flex: 0 0 auto
+      vertical-align top
+.anchor-down {
+  display: block !important;
+  margin: 12rem auto 0;
+  //bottom: 45px !important;
+  width: 20px;
+  height: 20px;
+  font-size: 34px;
+  text-align: center;
+  animation: bounce-in 5s 3s infinite !important;
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  margin-left: -10px;
+  cursor: pointer;
+}
+@-webkit-keyframes bounce-in{
+  0%{transform:translateY(0)}
+  20%{transform:translateY(0)}
+  50%{transform:translateY(-20px)}
+  80%{transform:translateY(0)}
+  to{transform:translateY(0)}
+}
+.anchor-down::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #222;
+  border-top: 3px solid #222;
+  transform: rotate(135deg);
+  position: absolute;
+  bottom: 10px;
+}
+.anchor-down::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 3px solid #222;
+  border-top: 3px solid #222;
+  transform: rotate(135deg);
+}
+

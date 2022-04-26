@@ -7,10 +7,14 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@mr-hope/vuepress-plugin-pwa": "^1.28.3",
     "vuepress": "1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
     "vuepress-plugin-cursor-effects": "^1.1.2",
     "vuepress-plugin-go-top": "^1.0.4",
-    "vuepress-theme-reco": "1.6.10"
+    "vuepress-theme-reco": "1.6.10",
+    "vuepress-plugin-boxx": "0.0.7"
+
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",

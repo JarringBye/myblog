@@ -1,6 +1,7 @@
 ---
 title: web前端面试学习
 date: 2022-03-15
+lang: zh-CN
 tags:
 - 面试
 - web前端
@@ -452,7 +453,7 @@ transition:变化的属性 花费时间 运动曲线（默认esea 直线：linea
 
 eg：
 
-@keyframe 动画名称 {
+```@keyframe 动画名称 {
 
 0%{
 
@@ -467,6 +468,7 @@ transform:translate(100px,0);
 }
 
 }
+```
 
 **百分比是给总时间的划分；除了使用百分比也可以使用from to相当于开始和结束**
 
