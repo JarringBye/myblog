@@ -210,14 +210,10 @@ module.exports = {
 		}],
 		["vuepress-plugin-boxx"],
 		['@vuepress-reco/comments', {
-			solution: 'vssue',
+			solution: 'valine',
 			options: {
-				title: 'Vssue Demo',
-				platform: 'github',
-				owner: 'JarringBye',
-				repo: 'vssue',
-				clientId: '8a93c944eb7ab1c2b57b',
-				clientSecret: 'ae862679751ba743ec25a11a176b565cc55c625c',
+				appId: '49jkGf2oBGQVBrtKlt6FFIpj-gzGzoHsz',// your appId
+				appKey: 'DhlslGj8aJcgonv1zAAFVW9e', // your appKey
 			}
 		}]
 	]
