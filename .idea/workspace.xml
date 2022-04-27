@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="8">
-      <change afterPath="$PROJECT_DIR$/blogs/编程分享/2022/Vue虚拟DOM有什么用.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/杂谈/2022/夜章.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/杂谈/2022/夜章.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/给函数起一个好名字.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/编程分享/2022/给函数起一个好名字.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/面试学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/编程分享/2022/面试学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/public/bk.gif" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/bk.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/styles/palette.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/theme/components/Mode/modeOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/modeOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/杂谈/2022/夜章.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/杂谈/2022/夜章.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/Vue虚拟DOM有什么用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/Vue虚拟DOM有什么用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/给函数起一个好名字.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/给函数起一个好名字.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/面试学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/面试学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +44,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/.vuepress/styles/palette.styl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.vuepress/config.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vuepress/styles/palette.styl" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="28JhjfW2xBtvH7yogHKazJStRUV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,17 +61,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/vuepress-theme-reco/styles/palette.styl" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blogs/编程分享/2022" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/public" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.vuepress/public" />
       <recent name="$PROJECT_DIR$/blogs/编程分享/2022" />
       <recent name="$PROJECT_DIR$/.vuepress/theme" />
-      <recent name="$PROJECT_DIR$/.vuepress/public" />
       <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/../" />
     </key>
@@ -87,6 +96,7 @@
       <workItem from="1650945539258" duration="12361000" />
       <workItem from="1650997414831" duration="22221000" />
       <workItem from="1651035704552" duration="4844000" />
+      <workItem from="1651087401039" duration="8431000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>

@@ -9,7 +9,6 @@ categories:
  - 编程分享
 ---
 
-# Vue虚拟DOM有什么用
 
 ## DOM的增删改
 

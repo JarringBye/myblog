@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Welcome to lilcandleBlog
-tagline: Do not go gentle into that good night
+tagline: 不要温和地走进那个良夜
 #heroImage: /hero.png
 #heroImageStyle: {
 #  maxWidth: '600px',

@@ -1,31 +1,33 @@
 module.exports = {
 	title: "lilcandle Blog",
-	description: '永无止境',
+	description: 'waiting...',
 	dest: 'public',
 	head: [
 		['link', {rel: 'icon', href: '/favicon.ico'}],
 		['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no'}],
 		['meta', {name: 'referrer', content: 'no-referrer'}],
-		["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
-		["script", { src: "scripts/demo.js" }]
+		// ["link", { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" }],
+		// ["script", { src: "scripts/demo.js" }]
 	],
 	theme: 'reco',
 	themeConfig: {
 		nav: [
 			{text: 'Home', link: '/', icon: 'reco-home'},
 			{text: 'TimeLine', link: '/timeline/', icon: 'reco-date'},
-			{
-				text: 'Docs',
-				icon: 'reco-message',
-				items: [
-					{text: 'vuepress-reco', link: '/docs/theme-reco/'}
-				]
-			},
+			// {
+			// 	text: 'Docs',
+			// 	icon: 'reco-message',
+			// 	items: [
+			// 		{text: '', link: '/docs/编程分享/'}
+			// 	]
+			// },
 			{
 				text: 'Contact',
 				icon: 'reco-message',
 				items: [
-					{text: 'GitHub', link: 'https://github.com/jarringbye', icon: 'reco-github'}
+					{text: 'GitHub', link: 'https://github.com/jarringbye', icon: 'reco-github'},
+					{text: 'Bilibili', link: 'https://space.bilibili.com/19066484', icon: 'reco-bilibili'},
+
 				]
 			}
 		],
@@ -72,7 +74,7 @@ module.exports = {
 		// 备案号
 		record: '未备案',
 		// 项目开始时间
-		startYear: '2022'
+		startYear: '2021',
 		/**
 		 * 密钥 (if your blog is private)
 		 */
@@ -87,10 +89,10 @@ module.exports = {
 		 * valine 设置 (if you need valine comment )
 		 */
 
-		// valineConfig: {
-		// 	appId: '...',// your appId
-		// 	appKey: '...', // your appKey
-		// }
+		valineConfig: {
+		appId: '49jkGf2oBGQVBrtKlt6FFIpj-gzGzoHsz',// your appId
+		appKey: 'DhlslGj8aJcgonv1zAAFVW9e',
+		}
 	},
 	markdown: {
 		lineNumbers: true
@@ -122,11 +124,12 @@ module.exports = {
 			'meting', {
 			metingApi: "https://api.i-meto.com/meting/api",
 			meting: {
-				server: "tencent",
-				type: "playlist",
-				mid: "8230834703",
+				server: "netease",
+				type: "album",
+				mid: "2085175",
 			},         // 不配置该项的话不会出现全局播放器
 			aplayer: {
+				fixed:true,
 				lrcType: 3,
 				order:'random',
 			}
@@ -179,22 +182,6 @@ module.exports = {
 				content: "复制成功!"
 			}
 		}],
-		// ["@vuepress-yard/vuepress-plugin-window", {
-		// 	title: "lilcandleの公告",  //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
-		// 	contentInfo: {
-		// 		title: "欢迎光顾 🎉🎉🎉",
-		// 		needImg: true,
-		// 		// imgUrl: "https://reinness.com/avatar.png",
-		// 		content: "暂无",
-		// 		contentStyle: ""
-		// 	},
-			// bottomInfo: {
-			// 	btnText: '关于',
-			// 	linkTo: 'https://cnblogs.com/glassysky'
-			// },
-		// 	closeOnce: false
-		// }],
-		// [ "vuepress-plugin-auto-sidebar", {}],
 		['@vuepress/pwa', {
 			serviceWorker: true,
 			updatePopup: {
@@ -202,14 +189,20 @@ module.exports = {
 				buttonText: "刷新"
 			}
 		}],
-		["vuepress-plugin-boxx"],
-		['@vuepress-reco/comments', {
-			solution: 'valine',
-			options: {
-				appId: '49jkGf2oBGQVBrtKlt6FFIpj-gzGzoHsz',// your appId
-				appKey: 'DhlslGj8aJcgonv1zAAFVW9e', // your appKey
-			}
-		}],
+			['copyright',
+				{
+					authorName: 'lilcandle', // 选中的文字将无法被复制
+					minLength: 30, // 如果长度超过  30 个字符
+				}],
+		//["vuepress-plugin-boxx"],
+		// ['@vuepress-reco/comments', {
+		// 	solution: 'valine',
+		// 	options: {
+		// 		appId: '49jkGf2oBGQVBrtKlt6FFIpj-gzGzoHsz',// your appId
+		// 		appKey: 'DhlslGj8aJcgonv1zAAFVW9e', // your appKey
+		// 		visitor:true,
+		// 	}
+		// }],
 
 	]
 }
