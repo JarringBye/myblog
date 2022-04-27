@@ -215,7 +215,7 @@ module.exports = {
 				title: 'vuepress-theme-reco',
 				platform: 'github',
 				owner: 'JarringBye',
-				repo: 'vuessue',
+				repo: 'vssue',
 				clientId: '8a93c944eb7ab1c2b57b',
 				clientSecret: 'aa8c27c522087e03f61acc53d09b825b58074bda',
 			}
