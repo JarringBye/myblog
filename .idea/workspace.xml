@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="第二次更改" />
+    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="第二次更改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +81,7 @@
       <updated>1650940733574</updated>
       <workItem from="1650940735719" duration="4187000" />
       <workItem from="1650945539258" duration="12361000" />
-      <workItem from="1650997414831" duration="17935000" />
+      <workItem from="1650997414831" duration="18444000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651029404517</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="第二次更改">
+      <created>1651030014984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651030014984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
