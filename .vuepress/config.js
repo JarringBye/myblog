@@ -215,7 +215,8 @@ module.exports = {
 				appId: '49jkGf2oBGQVBrtKlt6FFIpj-gzGzoHsz',// your appId
 				appKey: 'DhlslGj8aJcgonv1zAAFVW9e', // your appKey
 			}
-		}]
+		}],
+
 	]
 }
 
