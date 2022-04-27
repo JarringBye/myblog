@@ -29,14 +29,8 @@ module.exports = {
 				]
 			}
 		],
-		sidebar: {
-			'/docs/theme-reco/': [
-				'',
-				'theme',
-				'plugin',
-				'api'
-			]
-		},
+		sidebar: 'auto',
+		sidebarDepth: 2,
 		type: 'blog',
 		// 博客设置
 		blogConfig: {
@@ -151,9 +145,9 @@ module.exports = {
 			"dynamic-title",
 			{
 				showIcon: "/favicon.ico",
-				showText: "(/≧▽≦/)咦！又好了！",
+				showText: "lilcandle (/≧▽≦/)咦！又好了！",
 				hideIcon: "/favicon.ico",
-				hideText: "(●—●)客观别走哇！",
+				hideText: "lilcandle (●—●)客观别走哇！",
 				recoverTime: 2000
 			}
 		],
@@ -200,7 +194,7 @@ module.exports = {
 			// },
 		// 	closeOnce: false
 		// }],
-		[ "vuepress-plugin-auto-sidebar", {}],
+		// [ "vuepress-plugin-auto-sidebar", {}],
 		['@vuepress/pwa', {
 			serviceWorker: true,
 			updatePopup: {
