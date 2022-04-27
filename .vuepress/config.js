@@ -212,7 +212,7 @@ module.exports = {
 		['@vuepress-reco/comments', {
 			solution: 'vssue',
 			options: {
-				title: 'vuepress-theme-reco',
+				title: 'Vssue Demo',
 				platform: 'github',
 				owner: 'JarringBye',
 				repo: 'vssue',
