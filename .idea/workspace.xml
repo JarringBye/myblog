@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="8">
+    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="10">
+      <change afterPath="$PROJECT_DIR$/.vuepress/public/thinking.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/public/bk.gif" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/bk.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/styles/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/index.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/styles/palette.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/theme/components/Mode/modeOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/modeOptions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/杂谈/2022/夜章.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/杂谈/2022/夜章.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/Vue虚拟DOM有什么用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/Vue虚拟DOM有什么用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/给函数起一个好名字.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/给函数起一个好名字.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/面试学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/面试学习.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/杂谈/2022/夜章.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/杂谈/2022/夜章.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/编程分享/2022/Vue虚拟DOM有什么用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/Vue虚拟DOM有什么用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/编程分享/2022/面试学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/编程分享/2022/面试学习.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +89,8 @@
       <workItem from="1650945539258" duration="12361000" />
       <workItem from="1650997414831" duration="22221000" />
       <workItem from="1651035704552" duration="4844000" />
-      <workItem from="1651087401039" duration="8431000" />
+      <workItem from="1651087401039" duration="9770000" />
+      <workItem from="1651103052076" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>
@@ -217,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651041908819</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="10">
+      <created>1651098150717</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651098150717</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +257,7 @@
     <MESSAGE value="6" />
     <MESSAGE value="7" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="10" />
+    <option name="LAST_COMMIT_MESSAGE" value="10" />
   </component>
 </project>
