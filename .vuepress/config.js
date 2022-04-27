@@ -217,7 +217,7 @@ module.exports = {
 				owner: 'JarringBye',
 				repo: 'vssue',
 				clientId: '8a93c944eb7ab1c2b57b',
-				clientSecret: 'aa8c27c522087e03f61acc53d09b825b58074bda',
+				clientSecret: 'ae862679751ba743ec25a11a176b565cc55c625c',
 			}
 		}]
 	]
