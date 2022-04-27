@@ -128,9 +128,9 @@ module.exports = {
 			'meting', {
 			metingApi: "https://api.i-meto.com/meting/api",
 			meting: {
-				server: "netease",
+				server: "tencent",
 				type: "playlist",
-				mid: "430001319",
+				mid: "8230834703",
 			},         // 不配置该项的话不会出现全局播放器
 			aplayer: {
 				lrcType: 3,

@@ -1,13 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="第四次更改">
+    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="6">
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/AlgoliaSearchBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Common.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/DropdownLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/DropdownTransition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/FriendLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/HomeBlog/hock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/HomeBlog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/MobShare.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/ModePicker.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/applyMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Mode/modeOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/NavLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/NavLinks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/NoteAbstract.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/NoteAbstractItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Page.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/PageInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Password.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/PersonalInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SearchBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SidebarButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SidebarGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SidebarLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SidebarLinks.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/SubSidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/components/TagList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/enhanceApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/fonts/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/fonts/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/global-components/Badge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/helpers/composable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/helpers/other.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/helpers/postData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/helpers/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/images/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/images/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/images/home-head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/images/icon_vuepress_reco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/Tags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/layouts/TimeLines.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/lib/vuepress-theme-reco.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/zh-hans.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/locales/zh-hant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/mixins/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/mixins/moduleTransiton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/mixins/pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/mixins/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/noopModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/arrow.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/code.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/custom-blocks.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/mobile.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/palette.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/theme.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/toc.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vuepress/theme/styles/wrapper.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/styles/palette.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/other/guide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/zatan/2022/yedezhang.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/geihanshuqiyigehaomingzi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/编程分享/2022/mianshixuexi.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +130,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/public" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/node_modules/vuepress-theme-reco/styles/palette.styl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/theme" />
     <property name="list.type.of.created.stylesheet" value="Stylus" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
@@ -85,7 +163,8 @@
       <updated>1650940733574</updated>
       <workItem from="1650940735719" duration="4187000" />
       <workItem from="1650945539258" duration="12361000" />
-      <workItem from="1650997414831" duration="21195000" />
+      <workItem from="1650997414831" duration="22221000" />
+      <workItem from="1651035704552" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>
@@ -185,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651033165792</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="6">
+      <created>1651034727559</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651034727559</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +307,7 @@
     <MESSAGE value="第二次更改" />
     <MESSAGE value="第三次更改" />
     <MESSAGE value="第四次更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四次更改" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
 </project>
