@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="11">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/myblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/技术分享/2022/使用树莓派4B和摄像头作为局域网视频监控.md" afterDir="false" />
+    <list default="true" id="8d10246c-afcf-476d-9736-2f8624740e28" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +98,7 @@
       <workItem from="1651087401039" duration="9770000" />
       <workItem from="1651103052076" duration="709000" />
       <workItem from="1656161716016" duration="1395000" />
-      <workItem from="1657693902397" duration="636000" />
+      <workItem from="1657693902397" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1650942818668</created>
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657694595112</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="12">
+      <created>1657694912794</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657694912794</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +287,7 @@
     <MESSAGE value="8" />
     <MESSAGE value="10" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
 </project>

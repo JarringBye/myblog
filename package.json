@@ -22,7 +22,6 @@
     "@vuepress-reco/core": "^1.6.9",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "@vuepress-reco/vuepress-plugin-pagation": "^1.6.0",
-    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
     "@vuepress/plugin-medium-zoom": "^1.9.7",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-flowchart": "^1.5.0",
