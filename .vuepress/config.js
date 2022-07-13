@@ -72,7 +72,7 @@ module.exports = {
 		// 作者头像
 		authorAvatar: '/avatar.png',
 		// 备案号
-		record: '未备案',
+		record: '吉ICP备2022004301号',
 		// 项目开始时间
 		startYear: '2021',
 		/**
